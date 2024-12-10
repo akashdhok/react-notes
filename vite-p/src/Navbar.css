@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: black;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 6px 6px 7px rgb(237, 197, 211);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    margin-left: 40px;
+    cursor: pointer;
+    margin-right: 40px;
+    font-size: 20px;
+}
+ul li:hover{
+    color: rgb(121, 121, 143);
+    /* text-decoration: underline;
+     */
+     border: 2px solid gray;
+}
